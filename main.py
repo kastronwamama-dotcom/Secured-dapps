@@ -1,0 +1,1 @@
+from app import app  # exposes Flask 'app' for Gunicorn

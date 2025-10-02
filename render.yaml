@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: secure-blockchain-dapps
+    env: python
+    buildCommand: pip install -e .
+    startCommand: gunicorn --bind 0.0.0.0:$PORT main:app
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.11.0

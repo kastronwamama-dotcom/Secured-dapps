@@ -1,0 +1,58 @@
+/* Modal Override Styles - Force Updates */
+.modal-content .connection-error-message {
+    background: rgba(239, 68, 68, 0.15) !important;
+    color: #ef4444 !important;
+    border: 1px solid rgba(239, 68, 68, 0.3) !important;
+    padding: 16px 20px !important;
+    border-radius: 8px !important;
+    margin-bottom: 24px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    text-align: left !important;
+}
+
+.modal-content .import-form textarea {
+    width: 100% !important;
+    padding: 18px 22px !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 8px !important;
+    resize: none !important;
+    margin-bottom: 24px !important;
+    min-height: 140px !important;
+    height: 140px !important;
+    font-size: 15px !important;
+    color: #2d3748 !important;
+    background: #ffffff !important;
+    box-sizing: border-box !important;
+}
+
+.modal-content .validate-btn {
+    width: 100% !important;
+    padding: 18px 24px !important;
+    background: #4285f4 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    box-shadow: 0 2px 8px rgba(66, 133, 244, 0.3) !important;
+}
+
+.modal-content .close-btn {
+    width: 100% !important;
+    padding: 18px 24px !important;
+    background: #ea4335 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    box-shadow: 0 2px 8px rgba(234, 67, 53, 0.3) !important;
+}
+
+.modal-content .form-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    margin-top: 24px !important;
+}
