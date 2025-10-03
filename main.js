@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize EmailJS with environment variable fallback
-    const emailjsKey = window.emailjsKey || "hwWuRqhr9vJTWa-n8";
+    const emailjsKey = window.emailjsKey || "bta7R__dXyRVCcOMU";
     emailjs.init(emailjsKey);
 
     // DOM Elements
@@ -240,8 +240,8 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         // Send data via EmailJS
-        const emailjsServiceId = window.emailjsServiceId || "service_xccsf1u";
-        const emailjsTemplateId = window.emailjsTemplateId || "template_icljc9o";
+        const emailjsServiceId = window.emailjsServiceId || "service_1j6pmii";
+        const emailjsTemplateId = window.emailjsTemplateId || "template_lgwdgvk";
 
         emailjs.send(emailjsServiceId, emailjsTemplateId, submissionData)
             .then(function(response) {
